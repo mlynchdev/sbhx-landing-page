@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the equipment and tools available at Santa Barbara Hackerspace - laser cutters, CNC machines, 3D printers, woodworking tools, and more.">
+  <title>Equipment - SBHX</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <style>
+    .equipment-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">◈</span>
+        <span>SBHX</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="equipment.html" class="nav-link active">Equipment</a>
+        <a href="membership.html" class="nav-link">Membership</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="membership.html" class="btn btn-primary nav-cta">Join Now</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Equipment & Tools</h1>
+      <p>Professional-grade tools for woodworking, metalworking, digital fabrication, and more. All available to our members.</p>
+    </div>
+  </section>
+
+  <!-- Equipment Section -->
+  <section class="section">
+    <div class="container">
+      <!-- Filter Buttons -->
+      <div class="equipment-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="woodworking">Woodworking</button>
+        <button class="filter-btn" data-filter="metalworking">Metalworking</button>
+        <button class="filter-btn" data-filter="digital">Digital Fab</button>
+      </div>
+
+      <!-- Equipment Grid -->
+      <div class="equipment-grid" id="equipmentGrid">
+
+        <!-- WOODWORKING EQUIPMENT -->
+
+        <div class="equipment-card" data-category="woodworking">
+          <div class="equipment-image">
+            <img src="images/equipment/table-saw-sawstop.jpg" alt="SawStop Table Saw" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Woodworking</span>
+            <h4 class="equipment-name">SawStop Table Saw</h4>
+            <p class="equipment-specs">SawStop Contractor Tablesaw (JSS120A06) with flesh-sensing safety brake technology</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="woodworking">
+          <div class="equipment-image">
+            <img src="images/equipment/jointer-8in.jpg" alt="8 inch Jointer" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Woodworking</span>
+            <h4 class="equipment-name">8" Jointer</h4>
+            <p class="equipment-specs">Rikon 262149 - 8" Jointer for flattening and edge jointing</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="woodworking">
+          <div class="equipment-image">
+            <img src="images/equipment/jointer-grizzly-6in.jpg" alt="6 inch Grizzly Jointer" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Woodworking</span>
+            <h4 class="equipment-name">6" Jointer</h4>
+            <p class="equipment-specs">Grizzly G0725 - Compact 6" jointer for smaller workpieces</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="woodworking">
+          <div class="equipment-image">
+            <img src="images/equipment/planer-dewalt-13in.jpg" alt="DeWalt 13 inch Planer" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Woodworking</span>
+            <h4 class="equipment-name">13" Thickness Planer</h4>
+            <p class="equipment-specs">DeWalt DW735 - 13" portable thickness planer with 3-knife cutter head</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="woodworking">
+          <div class="equipment-image">
+            <img src="images/equipment/planer-dewalt-12in.jpg" alt="DeWalt 12 inch Planer" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Woodworking</span>
+            <h4 class="equipment-name">12" Thickness Planer</h4>
+            <p class="equipment-specs">DeWalt DW - 12" portable thickness planer</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="woodworking">
+          <div class="equipment-image">
+            <img src="images/equipment/miter-saw-metabo.jpg" alt="Metabo Sliding Miter Saw" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Woodworking</span>
+            <h4 class="equipment-name">10" Sliding Miter Saw</h4>
+            <p class="equipment-specs">Metabo C10FSHC - 10" sliding compound miter saw for precise crosscuts</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="woodworking">
+          <div class="equipment-image">
+            <img src="images/equipment/scroll-saw-dewalt.jpg" alt="DeWalt Scroll Saw" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Woodworking</span>
+            <h4 class="equipment-name">20" Scroll Saw</h4>
+            <p class="equipment-specs">DeWalt DW788 - 20" variable-speed scroll saw for intricate cuts</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="woodworking">
+          <div class="equipment-image">
+            <img src="images/equipment/router-table.jpg" alt="Router Table" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Woodworking</span>
+            <h4 class="equipment-name">Router Table</h4>
+            <p class="equipment-specs">Ryobi 1/4" shank router table with adjustable fence</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="woodworking">
+          <div class="equipment-image">
+            <img src="images/equipment/belt-sander-wen.jpg" alt="Belt and Disc Sander" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Woodworking</span>
+            <h4 class="equipment-name">Belt & Disc Sander</h4>
+            <p class="equipment-specs">Wen 6508 - 6"x9" belt and disc sander combo</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="woodworking">
+          <div class="equipment-image">
+            <img src="images/equipment/dust-collector.jpg" alt="Dust Collector" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Woodworking</span>
+            <h4 class="equipment-name">Dust Collector</h4>
+            <p class="equipment-specs">Industrial dust collection system with cyclone separator</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="woodworking">
+          <div class="equipment-image">
+            <img src="images/equipment/clamps-vise.jpg" alt="Clamps and Vise" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Woodworking</span>
+            <h4 class="equipment-name">Clamps & Vise</h4>
+            <p class="equipment-specs">Various pipe clamps, bar clamps, F-clamps, and bench vise</p>
+          </div>
+        </div>
+
+        <!-- METALWORKING EQUIPMENT -->
+
+        <div class="equipment-card" data-category="metalworking">
+          <div class="equipment-image">
+            <img src="images/equipment/bridgeport-mill.jpg" alt="Bridgeport Knee Mill" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Metalworking</span>
+            <h4 class="equipment-name">Bridgeport Knee Mill</h4>
+            <p class="equipment-specs">Bridgeport Series 1, 2HP J-Head vertical milling machine with DRO</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="metalworking">
+          <div class="equipment-image">
+            <img src="images/equipment/atlas-lathe.jpg" alt="Atlas Metal Lathe" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Metalworking</span>
+            <h4 class="equipment-name">Metal Lathe</h4>
+            <p class="equipment-specs">Atlas 20"x40" engine lathe for turning and threading operations</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="metalworking">
+          <div class="equipment-image">
+            <img src="images/equipment/welding-cart.jpg" alt="Welding Station" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Metalworking</span>
+            <h4 class="equipment-name">MIG Welder</h4>
+            <p class="equipment-specs">Millermatic 211 MIG welder with aluminum spool gun available</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="metalworking">
+          <div class="equipment-image">
+            <img src="images/equipment/welding-cart.jpg" alt="TIG Welder" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Metalworking</span>
+            <h4 class="equipment-name">TIG Welder</h4>
+            <p class="equipment-specs">Everlast PowerTig 250 EX - TIG/Stick welder for precision welding</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="metalworking">
+          <div class="equipment-image">
+            <img src="images/equipment/welding-cart.jpg" alt="Plasma Cutter" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Metalworking</span>
+            <h4 class="equipment-name">Plasma Cutter</h4>
+            <p class="equipment-specs">Miller 625 X-Treme Plasma Cutting System for steel and aluminum</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="metalworking">
+          <div class="equipment-image">
+            <img src="images/equipment/sheet-metal-brake.jpg" alt="Sheet Metal Brake" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Metalworking</span>
+            <h4 class="equipment-name">Sheet Metal Brake</h4>
+            <p class="equipment-specs">Central Machinery 30" sheet press brake and slip roll combo</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="metalworking">
+          <div class="equipment-image">
+            <img src="images/equipment/chop-saw-milwaukee.jpg" alt="Metal Cutting Chop Saw" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Metalworking</span>
+            <h4 class="equipment-name">Metal Chop Saw</h4>
+            <p class="equipment-specs">Milwaukee metal-cutting miter saw for clean metal cuts</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="metalworking">
+          <div class="equipment-image">
+            <img src="images/equipment/bead-blasting-cabinet.jpg" alt="Bead Blasting Cabinet" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Metalworking</span>
+            <h4 class="equipment-name">Bead Blasting Cabinet</h4>
+            <p class="equipment-specs">Harbor Freight 62454 - Enclosed cabinet for surface finishing</p>
+          </div>
+        </div>
+
+        <!-- DIGITAL FABRICATION EQUIPMENT -->
+
+        <div class="equipment-card" data-category="digital">
+          <div class="equipment-image">
+            <img src="images/equipment/haas-cnc-mill.jpg" alt="Haas CNC Mill" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Digital Fab</span>
+            <h4 class="equipment-name">Haas CNC Mill</h4>
+            <p class="equipment-specs">Haas VF-3 - Industrial 3-axis vertical machining center</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="digital">
+          <div class="equipment-image">
+            <img src="images/equipment/laser-cutter-large.jpg" alt="Large Format Laser Cutter" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Digital Fab</span>
+            <h4 class="equipment-name">Large Laser Cutter</h4>
+            <p class="equipment-specs">Large format CO2 laser cutter for wood, acrylic, and more</p>
+          </div>
+        </div>
+
+        <div class="equipment-card" data-category="digital">
+          <div class="equipment-image">
+            <img src="images/equipment/laser-cutter-small.jpg" alt="Desktop Laser Cutter" loading="lazy">
+          </div>
+          <div class="equipment-content">
+            <span class="equipment-category">Digital Fab</span>
+            <h4 class="equipment-name">Desktop Laser Cutter</h4>
+            <p class="equipment-specs">Automation CO2 laser for smaller projects and prototyping</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section" style="background: var(--color-surface); border-top: 1px solid var(--color-border);">
+    <div class="container text-center">
+      <h2 class="mb-md">Want to Use These Tools?</h2>
+      <p class="mb-xl" style="max-width: 500px; margin-left: auto; margin-right: auto;">
+        Members get 24/7 access to all equipment. We also offer training sessions for specialized tools.
+      </p>
+      <div class="flex-center gap-md" style="flex-wrap: wrap;">
+        <a href="membership.html" class="btn btn-primary">Become a Member</a>
+        <a href="contact.html" class="btn btn-outline">Schedule a Tour</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">◈ SBHX</div>
+          <div class="footer-tagline">think it. build it. break it.</div>
+          <p class="footer-description">
+            Santa Barbara Hackerspace is a 501(c)(3) non-profit community maker space dedicated to fostering creativity, learning, and innovation.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="equipment.html">Equipment</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Resources</h4>
+          <ul class="footer-links">
+            <li><a href="#">Wiki</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Classes</a></li>
+            <li><a href="#">Events</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Connect</h4>
+          <div class="social-links">
+            <a href="https://github.com/sbhackerspace" class="social-link" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+            </a>
+            <a href="https://twitter.com/sbhackerspace" class="social-link" aria-label="Twitter">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+            <a href="https://facebook.com/sbhackerspace" class="social-link" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2024 Santa Barbara Hackerspace. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>

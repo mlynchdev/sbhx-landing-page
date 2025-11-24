@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Join Santa Barbara Hackerspace - membership options, pricing, and benefits. Get 24/7 access to professional maker tools.">
+  <title>Membership - SBHX</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">◈</span>
+        <span>SBHX</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="equipment.html" class="nav-link">Equipment</a>
+        <a href="membership.html" class="nav-link active">Membership</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="membership.html" class="btn btn-primary nav-cta">Join Now</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Become a Member</h1>
+      <p>Get 24/7 access to professional tools, a creative community, and endless possibilities.</p>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="section">
+    <div class="container">
+      <div class="pricing-grid reveal-stagger">
+        <!-- Basic Tier -->
+        <div class="pricing-card">
+          <h3 class="pricing-tier">Basic</h3>
+          <div class="pricing-amount">
+            <span class="price">$75</span>
+            <span class="period">/month</span>
+          </div>
+          <p style="color: var(--color-text-secondary); margin-bottom: var(--space-xl);">
+            Perfect for occasional makers and hobbyists getting started.
+          </p>
+          <ul class="pricing-features">
+            <li>Access during open hours</li>
+            <li>Use of shared tools</li>
+            <li>Member Slack access</li>
+            <li>Workshop discounts</li>
+            <li>Small locker storage</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline" style="width: 100%;">Get Started</a>
+        </div>
+
+        <!-- Standard Tier (Featured) -->
+        <div class="pricing-card featured">
+          <h3 class="pricing-tier">Standard</h3>
+          <div class="pricing-amount">
+            <span class="price">$125</span>
+            <span class="period">/month</span>
+          </div>
+          <p style="color: var(--color-text-secondary); margin-bottom: var(--space-xl);">
+            For dedicated makers who want full access to everything.
+          </p>
+          <ul class="pricing-features">
+            <li>24/7 key card access</li>
+            <li>All tools & equipment</li>
+            <li>Member Slack access</li>
+            <li>Free workshops</li>
+            <li>Large locker storage</li>
+            <li>Guest passes (2/month)</li>
+            <li>Vote on space decisions</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary" style="width: 100%;">Join Now</a>
+        </div>
+
+        <!-- Pro Tier -->
+        <div class="pricing-card">
+          <h3 class="pricing-tier">Pro</h3>
+          <div class="pricing-amount">
+            <span class="price">Let's talk...</span>
+            <span class="period">/month</span>
+          </div>
+          <p style="color: var(--color-text-secondary); margin-bottom: var(--space-xl);">
+            For professionals and small businesses with dedicated needs.
+          </p>
+          <ul class="pricing-features">
+            <li>Everything in Standard</li>
+            <li>Dedicated desk space</li>
+            <li>Material storage shelf</li>
+            <li>Priority equipment access</li>
+            <li>Unlimited guest passes</li>
+            <li>Business address use</li>
+            <li>Featured on member wall</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline" style="width: 100%;">Contact Us</a>
+        </div>
+      </div>
+
+      <!-- Additional Options -->
+      <div class="text-center mt-2xl reveal">
+        <p style="color: var(--color-text-secondary);">
+          <strong style="color: var(--color-text);">Students & Educators:</strong> 20% discount with valid ID<br>
+          <strong style="color: var(--color-text);">Annual Payment:</strong> Get 2 months free when you pay yearly
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="section" style="background: var(--color-surface); border-top: 1px solid var(--color-border);">
+    <div class="container">
+      <div class="section-header">
+        <h2>Member Benefits</h2>
+        <p>More than just tools—here's what you get when you join.</p>
+      </div>
+
+      <div class="grid grid-3 reveal-stagger">
+        <div class="card benefit-card">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+              <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+            </svg>
+          </div>
+          <div class="benefit-content">
+            <h4>24/7 Access</h4>
+            <p>Come and go whenever you want. Night owl? Early bird? Work on your schedule.</p>
+          </div>
+        </div>
+
+        <div class="card benefit-card">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+            </svg>
+          </div>
+          <div class="benefit-content">
+            <h4>Pro Equipment</h4>
+            <p>$100,000+ worth of tools at your fingertips. Laser cutters, CNC, 3D printers, and more.</p>
+          </div>
+        </div>
+
+        <div class="card benefit-card">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <div class="benefit-content">
+            <h4>Community</h4>
+            <p>Connect with 50+ members. Get help, collaborate, and make friends who share your interests.</p>
+          </div>
+        </div>
+
+        <div class="card benefit-card">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+            </svg>
+          </div>
+          <div class="benefit-content">
+            <h4>Workshops</h4>
+            <p>Learn new skills with regular workshops on welding, electronics, woodworking, and more.</p>
+          </div>
+        </div>
+
+        <div class="card benefit-card">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+            </svg>
+          </div>
+          <div class="benefit-content">
+            <h4>Storage</h4>
+            <p>Keep your ongoing projects safe with personal locker space and material storage.</p>
+          </div>
+        </div>
+
+        <div class="card benefit-card">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+              <line x1="12" y1="17" x2="12.01" y2="17" />
+            </svg>
+          </div>
+          <div class="benefit-content">
+            <h4>Support</h4>
+            <p>Get help from experienced members. We're all here to learn and help each other succeed.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Frequently Asked Questions</h2>
+        <p>Everything you need to know about joining SBHX.</p>
+      </div>
+
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-question">
+            Do I need experience to join?
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19" />
+              <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>Not at all! We welcome makers of all skill levels, from complete beginners to experienced professionals.
+              Many members join specifically to learn new skills, and our community is always happy to help newcomers
+              get started.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            How do I learn to use the equipment?
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19" />
+              <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>We require safety training for certain equipment like the laser cutter, CNC machines, and welding
+              stations. Training sessions are held regularly and are free for members. For other tools, experienced
+              members are usually around to show you the ropes.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Can I bring guests?
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19" />
+              <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! Standard members get 2 guest passes per month, and Pro members have unlimited guest access. Guests
+              must be accompanied by a member at all times and sign a liability waiver. It's a great way to introduce
+              friends to the space.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            What if I want to cancel?
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19" />
+              <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>You can cancel your membership at any time with no cancellation fees. Just give us 30 days notice before
+              your next billing date. We hope you'll stay, but we understand circumstances change.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Can I use the space for my business?
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19" />
+              <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, many of our members run small businesses or do freelance work using our equipment. Our Pro tier is
+              designed specifically for business use, including the ability to use our address for your business and
+              priority equipment access during busy times.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Do you provide materials?
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19" />
+              <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>We maintain a materials library with common supplies available for purchase (wood, acrylic, filament,
+              etc.) at cost or slightly above. For specialized projects, you'll need to bring your own materials. We can
+              help you source materials if needed.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Can I tour before joining?
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19" />
+              <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely! We encourage everyone to visit before joining. Stop by during our open hours (Saturdays
+              2pm-midnight) or contact us to schedule a tour during the week. We'd love to show you around and answer
+              any questions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section"
+    style="background: linear-gradient(180deg, var(--color-bg) 0%, var(--color-surface) 100%); border-top: 1px solid var(--color-border);">
+    <div class="container text-center">
+      <div class="reveal">
+        <h2 class="mb-md">Ready to Start Making?</h2>
+        <p class="mb-xl" style="max-width: 500px; margin-left: auto; margin-right: auto;">
+          Have questions? Want to see the space first? Let's talk.
+        </p>
+        <div class="flex-center gap-md" style="flex-wrap: wrap;">
+          <a href="contact.html" class="btn btn-primary">Contact Us</a>
+          <a href="contact.html" class="btn btn-outline">Schedule a Tour</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">◈ SBHX</div>
+          <div class="footer-tagline">think it. build it. break it.</div>
+          <p class="footer-description">
+            Santa Barbara Hackerspace is a 501(c)(3) non-profit community maker space dedicated to fostering creativity,
+            learning, and innovation.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="equipment.html">Equipment</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Resources</h4>
+          <ul class="footer-links">
+            <li><a href="#">Wiki</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Classes</a></li>
+            <li><a href="#">Events</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Connect</h4>
+          <div class="social-links">
+            <a href="https://github.com/sbhackerspace" class="social-link" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+            </a>
+            <a href="https://twitter.com/sbhackerspace" class="social-link" aria-label="Twitter">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              </svg>
+            </a>
+            <a href="https://facebook.com/sbhackerspace" class="social-link" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2024 Santa Barbara Hackerspace. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
