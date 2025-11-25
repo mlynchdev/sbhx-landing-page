@@ -282,7 +282,6 @@ p {
   background: var(--color-primary-dim);
   color: var(--color-bg);
   box-shadow: var(--glow-primary-strong);
-  transform: translateY(-2px);
 }
 
 .btn-outline {
@@ -320,7 +319,6 @@ p {
 .card:hover {
   border-color: var(--color-primary);
   box-shadow: var(--glow-primary);
-  transform: translateY(-4px);
 }
 
 .card-header {
@@ -975,7 +973,6 @@ p {
 .equipment-card:hover {
   border-color: var(--color-primary);
   box-shadow: var(--glow-primary);
-  transform: translateY(-4px);
 }
 
 .equipment-image {
