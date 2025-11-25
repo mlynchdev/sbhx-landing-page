@@ -17,7 +17,7 @@
   --color-primary-dark: #009926;
   --color-text: #ffffff;
   --color-text-secondary: #a0a0a0;
-  --color-text-muted: #666666;
+  --color-text-muted: #898989;
   --glow-primary: 0 0 20px rgba(0, 255, 65, 0.3);
   --glow-primary-strong: 0 0 30px rgba(0, 255, 65, 0.5);
 
@@ -381,7 +381,8 @@ p {
 }
 
 .logo-icon {
-  color: var(--color-primary);
+  height: 28px;
+  width: auto;
 }
 
 .nav {
